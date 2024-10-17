@@ -88,7 +88,7 @@ public class Main {
             }
         }
     }
-    public static void sortingFulltime(Staff[] staffArray) {
+    private static void sortingFulltime(Staff[] staffArray) {
         int n = staffArray.length;
         System.out.println("Full-time salary low-high: ");
         for (Staff staff : staffArray) {
